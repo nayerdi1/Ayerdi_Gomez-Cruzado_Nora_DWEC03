@@ -1,0 +1,5 @@
+{
+    "facil": ["manos", "piano", "mirar", "perro", "mundo", "marea", "ruido", "campo", "globo", "justo", "norte", "selva", "tarde"],
+    "medio": ["bosque", "templo", "fresco", "camino", "dormir", "esfera", "fuerte", "piedra", "quedar"],
+    "dificil": ["mariposa", "camiseta", "escalera", "cerámica", "artesano", "montaña", "ventanas"]
+  }

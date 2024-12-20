@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles_inicio.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <script type="module" src = "../js/inicio.js"></script>
+    <title>ThinkWords</title>
+</head>
+<body>
+    <main>
+       
+        <header id="logo">
+            <div></div>
+            <div></div>
+            <div></div>
+            <h1>ThinkWords</h1>
+        </header>
+
+        <section id="cuerpo">
+            <article>
+                <ol>
+                    <p>Instrucciones del Juego</p>
+                    <li>Objetivo: Adivina la palabra oculta en 6 intentos o menos.</li>
+                    <li>Cómo jugar:
+                        <ul>
+                            <li>Escribe una palabra del mismo número de letras que la oculta.</li>
+                            <li>Recibe pistas:
+                                <ul>
+                                    <li>Verde: Letra correcta y posición correcta.</li>
+                                    <li>Amarillo: Letra correcta, posición incorrecta.</li>
+                                    <li>Gris: Letra no está en la palabra.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Niveles:
+                        <ul>
+                            <li>Fácil: Palabras de 5 letras.</li>
+                            <li>Medio: Palabras de 6 letras.</li>
+                            <li>Difícil: Palabras de 8 letras.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p>¡Buena suerte! 🎮</p>
+            </article>
+
+            <article id="niveles">
+                <h2>Elige nivel:</h2>
+                <a href="juego.html?nivel=facil">
+                    <button id="facil" class="nivel">Fácil</button>
+                </a>
+                <a href="juego.html?nivel=medio">
+                    <button id="medio" class="nivel">Medio</button>
+                </a>
+                <a href="juego.html?nivel=dificil">
+                    <button id="dificil" class="nivel">Dificil</button>
+                </a>
+            </article>
+         
+         
+
+        </section>
+    </main>
+</body>
+</html>
